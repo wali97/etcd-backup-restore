@@ -62,3 +62,7 @@ ur last command to get ur cluster back as it was before. i.e. initializing ur cl
 $ kubeadm init --ignore-preflight-errors=DirAvailable--var-lib-etcd    which means that when our cluster is getting initialized it should ignore data for etcd server 									     and take data from /var/lib/etcd/    fetch info from here.
 
 $ kubectl get nodes						to view your cluster.
+
+
+ALL YOUR NODES & PODS WILL BE RESTORED AUTOMATICALLY & THE SERVICES RUNNING ON YOUR CLUSTER WILL CONTINUE RUNNING FROM WHERE U LEFT THEM.
+THANK YOU.
